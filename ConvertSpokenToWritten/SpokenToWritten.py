@@ -118,5 +118,3 @@ def sp_to_wr():
     s2w.convert()
     # show converted paragraph
     s2w.show_output_para()
-
-sp_to_wr()
