@@ -9,7 +9,7 @@ def open_file(fname):
     return open(os.path.join(os.path.dirname(__file__), fname))
 
 setup(
-	  name='SpokenEnglishToWrittenEnglish',
+      name='SpokenEnglishToWrittenEnglish',
       packages=['ConvertSpokenToWritten'],
       version='1.0.0',
       description='Convert Spoken English using the given text to equivalent Written English ',
